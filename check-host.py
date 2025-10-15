@@ -34,13 +34,14 @@ class check_host():
 
 	def _check_host_logo(self) -> str:
 		return """
-	      __           __       __            __ 
-	 ____/ /  ___ ____/ /______/ /  ___  ___ / /_
-	/ __/ _ \/ -_) __/  '_/___/ _ \/ _ \(_-</ __/
-	\__/_//_/\__/\__/_/\_\   /_//_/\___/___/\__/ v<version> / https://github.com/diasnull                                  
-	                    ــــــــﮩ٨ـﮩﮩ٨ـﮩ٨ـﮩﮩ٨ــــ
-						"""
-		
+	             ║║
+	         	 ║║
+	╔════╗   ║╚════╗╔════╗
+	║╔════╝ ║╔═══╗║║╔══╗║
+	║║         ║║     ║║║╚══╝║
+	║║         ║║     ║║║╔═══╝
+    ╚════╝  ║║     ║║║╚═══╗
+	  ╚════╝╚╝     ╚╝╚═════╝
 
 	def _check_host_method(self, args: argparse.Namespace) -> None:
 		method_dict: dict[function] = {
