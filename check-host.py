@@ -42,6 +42,7 @@ class check_host():
 	║║         ║║     ║║║╔═══╝
     ╚════╝  ║║     ║║║╚═══╗
 	  ╚════╝╚╝     ╚╝╚═════╝
+	  """
 
 	def _check_host_method(self, args: argparse.Namespace) -> None:
 		method_dict: dict[function] = {
